@@ -1,14 +1,17 @@
-= Gorgeous Code Assessment Test Operations
-
+Gorgeous Code Assessment Test Operations
+=======
 This repo is ment to be as permanent work in progress.
-The code in this repo should be dockerizable and been run on top of 
+The code in this repo should be dockerizable and been run on top of
 kubernetes.
 
-What we use for operations development:
+**What we use for operations development:
+**
 
-[Minikube|https://github.com/kubernetes/minikube] to represent the kubernetes we use
-[Helm Package Manager|https://github.com/kubernetes/helm] to package the kubernetes manifests
-[Charts|https://github.com/kubernetes/charts] for public available components someone may need in addition on kubernetes.
+[Minikube](https://github.com/kubernetes/minikube) to represent the kubernetes we use
+
+[Helm Package Manager](https://github.com/kubernetes/helm) to package the kubernetes manifests
+
+[Charts](https://github.com/kubernetes/charts) for public available components someone may need in addition on kubernetes.
 
 What to achieve with this repo is to replace at least this readme in a pr with your thoughts how to handle the deployment of the app
 in this repo. In addition a Dockerfile and a helm chart for basic usage are fine too.
@@ -17,7 +20,7 @@ The result is very useful too, even it is only short brainstorming of the though
 
 
 Regarding this code....
- 
+
 
 ## Most relevant entities overview:
 
