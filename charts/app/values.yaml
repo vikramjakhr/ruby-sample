@@ -1,0 +1,32 @@
+# Default values for test-ops-helm.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: <repo-endpoint>/<repo>
+  tag: <tag> # v1.0
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 3000
+
+ingress:
+  enabled: false
+
+resources:
+  requests:
+  cpu: 100m
+  memory: 128Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
